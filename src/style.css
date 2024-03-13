@@ -1,0 +1,164 @@
+:root{
+   --name-color:#c73866;
+   --text-color: #2a2d33;
+   --background-color: #c73866;
+   --text-back-color:#e9c3cf40;
+   --details-color: #8b2747;
+   --other-color:#b3297a;
+   ---box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body{
+    margin-top:100%;
+}
+
+h1,h2,
+h3{
+    text-align: center !important;
+    margin: 0;
+}
+
+h1{
+    font-size: 96px !important;
+    color: var(--name-color);
+    padding-top: 50px;
+}
+
+h2{
+    font-size: 35px !important;
+    color: var(--text-color);
+    padding-top: 100px;
+}
+
+h3{
+    font-size: 24px !important;
+    color: var(--text-color);
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+p{
+    background-color: var(--text-back-color);
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.homepage{
+    display:block;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.about-text{
+    display: flex;
+    margin: 30px;
+}
+
+.about-text p{
+    margin: 13px;
+}
+
+.mail{
+    display: block;
+    font-size: 28px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+}
+
+.mail:hover{
+    text-decoration:underline;
+}
+
+/*buttons*/
+
+.bnt-contact{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.bnt-contact a {
+    margin: 15px;
+    border-radius: 5px;
+    padding:25px;
+    text-decoration: none;
+    flex: 0.3;
+    text-align: center;
+}
+
+.about {
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    background-color: var(--background-color);
+    box-shadow: var(---box-shadow);
+    border: 1px solid var(--name-color);
+}
+
+.about:hover {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.about a {
+    margin: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    flex: 0.3;
+    text-align: center;
+}
+
+.contact {
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    background-color: var(--background-color);
+    box-shadow: var(---box-shadow);
+    border: 1px solid var(--name-color);
+}
+
+.contact:hover {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.contact a {
+    margin: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    flex: 0.3;
+    text-align: center;
+}
+
+.card-link{
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    color: white;
+    background-color: var(--background-color);
+    box-shadow: var(---box-shadow);
+    border: 1px solid var(--name-color);
+}
+
+.card-link:hover{
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.card-link a {
+    margin: 20px;
+    border-radius: 5px;
+    padding: 20px 15px;
+    text-decoration: none;
+    flex: 0.3;
+    text-align: center;
+}
