@@ -37,6 +37,10 @@ h3{
     padding-bottom: 20px;
 }
 
+h4{
+    display: none;
+}
+
 p{
     background-color: var(--text-back-color);
     border-radius: 5px;
@@ -91,6 +95,7 @@ p{
     text-decoration: none;
     flex: 0.3;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .about {
@@ -161,4 +166,29 @@ p{
     text-decoration: none;
     flex: 0.3;
     text-align: center;
+}
+
+/* responsive*/
+@media (max-width: 655px){
+
+.sendmail{
+    display: none;
+}
+
+h4{
+    display: block;
+    text-align: center;
+    font-size: 40px !important;
+    padding-top: 35px;
+}
+.timage{
+    display: none;
+}
+
+.card-link{
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+}
+
 }
